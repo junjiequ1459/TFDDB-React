@@ -1,45 +1,52 @@
-.App {
-  text-align: center;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  margin-top: 0;
-}.App {
-   text-align: center;
- }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #0078d4;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #0078d4;
   color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+.search-button:hover {
+  background-color: #005a9e;
 }
 
-p {
-  margin-top: 0;
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.result {
+  color: green;
+  margin-top: 1rem;
+  font-weight: bold;
 }
